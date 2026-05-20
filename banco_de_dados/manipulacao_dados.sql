@@ -7,19 +7,21 @@ WHERE id_aluno = 1;
 -- Atualizar o status de uma matricula (Exemplo: Trancado para Ativo)
 UPDATE matriculas
 SET status = 'Ativo'
-WHERE id_matricula = 2006;
+WHERE id_matricula = 6;
 
--- Alterar o professor de uma turma (Exemplo: Trocar professor da turma 3001)
--- Vamos trocar o professor 61 pelo 62 (Mariana Costa)
+-- Alterar o professor de uma turma (Exemplo: Trocar professor da turma 1)
+-- Vamos trocar o professor 1 pelo 2 (Mariana Costa)
 UPDATE turmas
-SET id_professor = 62
-WHERE id_turma = 3001;
+SET id_professor = 2
+WHERE id_turma = 1;
 
 -- Excluir uma matricula especifica
 DELETE FROM matriculas 
-WHERE id_matricula = 2060;
+WHERE id_matricula = 60;
 
 -- Excluir uma turma que nao possui vinculo (sem matriculas)
 -- Suponhamos que uma turma 3006 foi criada e nao tinha ninguem matriculado
 DELETE from turmas
-WHERE id_turma = 3006;
+WHERE id_turma = 6;
+
+
