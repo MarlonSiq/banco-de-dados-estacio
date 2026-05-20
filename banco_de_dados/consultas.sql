@@ -24,3 +24,23 @@ SELECT * FROM vw_quant_alunos_turma;
 
 -- Consulta 3 — Cursos e suas disciplinas
 SELECT * FROM vw_disc_curso;
+
+-- Consulta 4v- Status dos Alunos
+SELECT * FROM vw_status_alunos;
+
+-- Consulta 5 - Apenas Alunos ativos
+SELECT * FROM vw_alunos_ativos;
+
+-- Consulta 6 - Turma com mais de 10 Alunos ativos
+SELECT * FROM vw_min_alunos_turma;
+
+
+
+
+
+
+
+
+
+
+
